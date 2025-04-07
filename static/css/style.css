@@ -1,9 +1,16 @@
 body {
-    font-family: 'Arial', sans-serif;
+    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     background-color: #d9d9d9;
     margin: 0;
     padding: 0;
 }
+h1 {
+    font-size: 48px !important;
+}
+  
 
 .container {
     max-width: 900px;
@@ -170,7 +177,8 @@ footer {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 12px;
-    padding: 10px 18px;
+    padding: 15px 18px;
+    margin: 7px;
     font-size: 16px;
     font-weight: 500;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -194,14 +202,21 @@ footer {
     margin: 40px auto;
   }
   
-  .redes-sociais a {
+.redes-sociais a {
     margin: 0 10px;
     display: inline-block;
     transition: transform 0.2s;
-  }
+}
   
-  .redes-sociais a:hover {
+.redes-sociais a:hover {
     transform: scale(1.1);
-  }
+}
   
+
+
+.titulo-principal {
+    font-size: 68px !important;
+    font-weight: bold;
+    text-align: center;
+}
   
