@@ -1,15 +1,48 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empreguei</title>
-    <p>iwfhqa8ifnfq</p>
+{% extends 'base.html' %}
 
+{% block content %}
+<div class="container">
+    <header>
+        <div class="logo">Empreguei</div>
+        <button class="login">Login</button>
+    </header>
 
+    <main class="main-content">
+        <h1>Conecte-se com<br>quem resolve!</h1>
+        <p>Publique seu serviço ou encontre profissionais de forma rápida.</p>
+        <button class="botao-estilo-ios">Publicar serviço</button>
+        <button class="botao-estilo-ios">Encontrar profissional</button>
+        
+        <div class="cards">
+            <div class="card">
+                <img src="https://img.icons8.com/ios-filled/100/000000/worker-male.png" alt="Ajudante">
+                <p>Ajudante</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/ios-filled/100/000000/maintenance.png" alt="Montador">
+                <p>Montador</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/ios-filled/100/000000/housekeeper-female.png" alt="Empregada">
+                <p>Empregada</p>
+            </div>
+            
+            
+            </div>
+        </div>
+        
+    </main>
 
-</head>
-<body>
-    <h1>Bem-vindo ao Empreguei</h1>
-</body>
-</html>
+    <footer>
+        <div class="contato-card">
+          <h3>Contato</h3>
+          <div class="redes-sociais">
+            <a href="#"><img src="https://img.icons8.com/ios-filled/30/000000/facebook-new.png" alt="Facebook" /></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/30/000000/instagram-new.png" alt="Instagram" /></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/30/000000/twitter.png" alt="Twitter" /></a>
+          </div>
+        </div>
+      </footer>
+      
+</div>
+{% endblock %}
